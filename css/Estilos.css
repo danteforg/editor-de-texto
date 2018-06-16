@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit- box-sizing: border-box;
+  -moz- box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(../imagenes/fondo1.jpg);
+  -webkit- background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Roboto;
+}
+
+.conte{
+  background: #7A777A;
+  width: 100%;
+  max-width: 500px;
+  margin: 120px auto;
+  color: white;
+  border-radius: 10px;
+  opacity: 0.85;
+}
+
+.conte .cambio{
+  position: relative;
+  top: 10px;
+  left: 390px;
+  height: 25px;
+  width: 100px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+
+.conte .cambio span{
+  letter-spacing: 1px;
+}
+
+.conte .cambio:hover{
+  border-left: 2px solid blue;
+  border-right: 2px solid blue;
+}
+
+.conte h2{
+  margin: 0 0 28px 0;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.conte input[type="text"],
+.conte input[type="password"],
+.conte input[type="email"] {
+  outline: none;
+  background: rgba(0,0,0,0.5);
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  color: #FFF;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 4px solid #7fffd4;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.conte input[type="text"]:focus,
+.conte input[type="password"]:focus,
+.conte input[type="email"]:foncus{
+  border-bottom: 4px solid yellow;
+}
+
+.conte input[type="submit"]{
+  background: #FF851B;
+  color: #FFF;
+  border: none;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: normal;
+  font-family: Roboto;
+  letter-spacing: 1px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.conte input[type="submit"]:hover{
+  background: rgba(0, 117, 217, 0.5);
+}
+
+.conte .olvidar{
+  background: rgba(0, 117, 217, 0.5);
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.conte .olvidar a{
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.conte .global{
+  padding: 40px;
+  display: none;
+}
+
+.conte .global:nth-child(3){
+  display: block;
+}
+
+
+-----------------------------------
+
+.tercero{
+  -webkit- background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Roboto;
+}
+
+
+.encabezado{
+  width: 100%;
+  height: 30px;
+  bottom: 20px;
+  background: #E6E4E6;
+  opacity: 0.5;
+}
+
+.user{
+  position: relative;
+  top: 2px;
+  left: 10px;
+  height: 25px;
+  width: 100px;
+  font-size: 15px;
+  line-height: 25px;
+  font-size: 20px;
+  text-align: center;
+}
