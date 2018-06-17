@@ -4,7 +4,7 @@ $('.cambio').click(function(){
     'padding-top': 'toggle',
     'padding-bottom': 'toggle',
     opacity: 'toggle'
-  }, "slow");
+  }, "slow ");
 });
 
 
@@ -14,7 +14,8 @@ tinymce.init({
           theme: "modern",
           skin: "lightgray",
 
-          width: "100%",
+          width: "99.85%",
+          heigth: "80%",
 
           statubar: true,
 
@@ -28,3 +29,11 @@ tinymce.init({
 
 
         });
+
+function RecuperarCon(){
+  if($('.usuario')=="nana"){
+     alert("Contraseña del suario: --..-..--"); 
+  }else{
+    alert("No funciono");
+  }
+}
