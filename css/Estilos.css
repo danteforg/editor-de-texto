@@ -7,7 +7,7 @@
 }
 
 body{
-  background: url(../imagenes/fondo1.jpg);
+  background: url(../imagenes/fondo2.jpg);
   -webkit- background-size: cover;
   background-size: cover;
   background-attachment: fixed;
@@ -166,7 +166,7 @@ body{
   position: relative;
   top: 55px;
   left: 55px;
-  font-size: 28px;
+  font-size: 54px;
   font-family: Roboto;
 }
 
@@ -195,7 +195,7 @@ body{
   position: relative;
   top: 55px;
   left: 55px;
-  font-size: 28px;
+  font-size: 54px;
   font-family: Roboto;
 }
 
@@ -223,7 +223,7 @@ body{
   position: relative;
   top: 55px;
   left: 55px;
-  font-size: 28px;
+  font-size: 54px;
   font-family: Roboto;
 }
 
@@ -249,6 +249,7 @@ body{
   border-left: 2px solid red;
   transition: all .4s ease;
   cursor: pointer;
+  background: none; 
 }
 
 .salir{
@@ -258,4 +259,21 @@ body{
 .salir:hover{
   border-left: 4px solid blue;
   border-right:4px solid blue;
+}
+
+.mas{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: url(../imagenes/mas.png);
+  -webkit- background-size: cover;
+  background-size: cover;
+  top: 420px;
+  left: 1250px;
+}
+
+.mas:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all .4s ease;
 }

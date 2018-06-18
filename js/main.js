@@ -37,3 +37,8 @@ function RecuperarCon(){
     alert("No funciono");
   }
 }
+
+function salida(){
+   alert("HAZ CERRADO SESION"); 
+   document.location.href ="login.html";
+}
