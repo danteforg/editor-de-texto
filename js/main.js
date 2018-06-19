@@ -42,3 +42,8 @@ function salida(){
    alert("HAZ CERRADO SESION"); 
    document.location.href ="index.html";
 }
+
+
+function nueva(){
+  document.location.href="editar.html";
+}
