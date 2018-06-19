@@ -40,5 +40,5 @@ function RecuperarCon(){
 
 function salida(){
    alert("HAZ CERRADO SESION"); 
-   document.location.href ="login.html";
+   document.location.href ="index.html";
 }
