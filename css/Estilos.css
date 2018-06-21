@@ -11,7 +11,7 @@ body{
   -webkit- background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .conte{
@@ -67,7 +67,7 @@ body{
   border: none;
   border-radius: 2px;
   border-bottom: 4px solid #7fffd4;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   margin: 0 0 20px 0;
   text-align: center;
@@ -86,7 +86,7 @@ body{
   width: 100%;
   padding: 10px 0;
   font-weight: normal;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 1px;
   font-size: 16px;
   cursor: pointer;
@@ -124,7 +124,7 @@ body{
   -webkit- background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -167,7 +167,7 @@ body{
   top: 55px;
   left: 55px;
   font-size: 54px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .nuevo:hover{
@@ -196,7 +196,7 @@ body{
   top: 55px;
   left: 55px;
   font-size: 54px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .reciente:hover{
@@ -224,7 +224,7 @@ body{
   top: 55px;
   left: 55px;
   font-size: 54px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
 }
 
 .otro:hover{
