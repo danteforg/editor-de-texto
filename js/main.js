@@ -1,10 +1,10 @@
 $('.cambio').click(function(){
   $('.global').animate({
-    heigth: "toggle",
+    height: "toggle",
     'padding-top': 'toggle',
     'padding-bottom': 'toggle',
     opacity: 'toggle'
-  }, "slow ");
+  }, "slow");
 });
 
 
