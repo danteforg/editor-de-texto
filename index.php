@@ -34,7 +34,7 @@
 
                 <input type="password" placeholder="Confirmar contaseña" id="confirm_password" name="confirm_password">
 
-                <input type="submit" onclick="g()" value="Registrar">
+                <input type="submit" value="Registrar">
               <form action="#">
             </div>
             <div class="olvidar">

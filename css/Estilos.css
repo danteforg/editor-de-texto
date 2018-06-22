@@ -11,26 +11,30 @@ body{
   -webkit- background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
 }
 
 .conte{
   background: #7A777A;
   width: 100%;
   max-width: 500px;
-  margin: 70px auto;
+  margin: 120px auto;
   color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   opacity: 0.85;
-  position: relative;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
 }
 
 .conte .cambio{
   position: relative;
   top: 10px;
-  left: 370px;
-  height: 27px;
-  width: 120px;
+  left: 390px;
+  height: 25px;
+  width: 100px;
   font-size: 15px;
   line-height: 25px;
   text-align: center;
@@ -51,7 +55,7 @@ body{
 
 .conte h2{
   margin: 0 0 28px 0;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
   line-height: 1;
 }
@@ -68,12 +72,10 @@ body{
   border: none;
   border-radius: 2px;
   border-bottom: 4px solid #7fffd4;
-  font-family: 'Roboto', sans-serif;
-  box-sizing: border-box;
+  font-family: Roboto;
   font-size: 20px;
   margin: 0 0 20px 0;
   text-align: center;
-  transition: all .5s ease;
 }
 
 .conte input[type="text"]:focus,
@@ -89,11 +91,10 @@ body{
   width: 100%;
   padding: 10px 0;
   font-weight: normal;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
   letter-spacing: 1px;
   font-size: 16px;
   cursor: pointer;
-  transition: all .5s ease;
 }
 
 .conte input[type="submit"]:hover{
@@ -103,7 +104,7 @@ body{
 .conte .olvidar{
   background: rgba(0, 117, 217, 0.5);
   width: 100%;
-  padding: 16px 0;
+  padding: 15px 0;
   text-align: center;
 }
 
@@ -128,7 +129,7 @@ body{
   -webkit- background-size: cover;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
 }
 
 
@@ -171,7 +172,7 @@ body{
   top: 55px;
   left: 55px;
   font-size: 54px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
 }
 
 .nuevo:hover{
@@ -200,7 +201,7 @@ body{
   top: 55px;
   left: 55px;
   font-size: 54px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
 }
 
 .reciente:hover{
@@ -228,7 +229,7 @@ body{
   top: 55px;
   left: 55px;
   font-size: 54px;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto;
 }
 
 .otro:hover{

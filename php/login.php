@@ -1,5 +1,7 @@
 <?php
-
+$usuario=$_POST['username'];
+$clave=$_POST['password'];
+if($usuario!="" && $clave!=""){	
 if(!empty($_POST)){
 	if(isset($_POST["username"]) &&isset($_POST["password"])){
 		if($_POST["username"]!=""&&$_POST["password"]!=""){
@@ -22,7 +24,8 @@ if(!empty($_POST)){
 		}
 	}
 }
-
-
+}else{
+	print "<script>alert(\"Campos vacios\");window.location='../index.php'</script>";
+}
 
 ?>

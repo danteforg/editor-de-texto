@@ -21,7 +21,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 		<a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
 	</div>
 	</form>
-	<form>
+	<form onclick="edit()">
 		<div class="nuevo">
 			<p>Nuevo</p>
 			<p>documento</p>

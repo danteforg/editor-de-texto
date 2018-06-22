@@ -23,7 +23,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
     <h3 class= "user">USUARIO</h3>
     </div>
     <div>
-    <span class="salir" action="php/loguot.php" method="post">Salir</span>
+    <a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
   </div>
       <textarea name="myTextarea" id="myTextarea" class="tinymce"></textarea>
 
