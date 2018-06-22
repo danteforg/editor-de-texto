@@ -164,7 +164,7 @@ a:link{
   -webkit- background-size: cover;
   background-size: cover;
   top: 80px;
-  left: 50px;
+  left: 100px;
 }
 
 .nuevo p{
@@ -187,30 +187,30 @@ a:link{
 
 .reciente{
   position: absolute;
-  width: 25%;
-  height: 70%;
-  background: url(../imagenes/wor.png);
+  width: 200px;
+  height: 200px;
+  background: url(../imagenes/rec.png);
   -webkit- background-size: cover;
   background-size: cover;
-  top: 80px;
-  left: 450px;
+  top: 380px;
+  left: 700px;
 }
 
 .reciente p{
   position: relative;
-  top: 55px;
-  left: 55px;
+  color: #FFFFFF;
+  top: -180px;
   font-size: 54px;
   font-family: Roboto;
 }
 
 .reciente:hover{
-  background: url(../imagenes/wor2.png);
+  background: url(../imagenes/rec.png);
   -webkit- background-size: cover;
   background-size: cover;
   transition: all .5s ease;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .otro{
@@ -221,7 +221,7 @@ a:link{
   -webkit- background-size: cover;
   background-size: cover;
   top: 380px;
-  left: 950px;
+  left: 1150px;
 }
 
 .otro p{
@@ -264,21 +264,4 @@ a:link{
 .salir:hover{
   border-left: 4px solid blue;
   border-right:4px solid blue;
-}
-
-.mas{
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background: url(../imagenes/mas.png);
-  -webkit- background-size: cover;
-  background-size: cover;
-  top: 420px;
-  left: 1250px;
-}
-
-.mas:hover{
-  cursor: pointer;
-  opacity: 0.5;
-  transition: all .4s ease;
 }

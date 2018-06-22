@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
-	print "<script>alert(\"Acceso invalido!\");window.location='login.php';</script>";
+	print "<script>alert(\"Acceso invalido!\");window.location='index.php';</script>";
 }
 
 ?>
@@ -13,9 +13,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
           <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	<div class="encabezado">
-		<h3 class= "user">USUARIO</h3>
-    </div>
+	<div class="encabezado">USUARIO</div>
     <form>
     <div>
 		<a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
@@ -30,20 +28,16 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 
 	<form>
 		<div class="reciente">
-			<p>Nuevo</p>
+			<p>Ultimo</p>
 			<p>documento</p>
+			<p>subido</p>
 		</div>
 	</form>
 
 	<form>
 		<div class="otro">
-			<p>Subir</p>
-			<p>documento</p>
-		</div>
-	</form>
-
-	<form>
-		<div class="mas">
+			<p>Recuperar</p>
+			<p>archivo</p>
 		</div>
 	</form>
 
