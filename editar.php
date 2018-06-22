@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+session_start();
+if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
+  print "<script>alert(\"Acceso invalido!\");window.location='login.php';</script>";
+}
+?>
 <HTML>
 <HEAD>
   <TITLE>Editor</TITLE>
@@ -18,7 +23,7 @@
     <h3 class= "user">USUARIO</h3>
     </div>
     <div>
-    <span class="salir" onclick="salida()">Salir</span>
+    <span class="salir" action="php/loguot.php" method="post">Salir</span>
   </div>
       <textarea name="myTextarea" id="myTextarea" class="tinymce"></textarea>
 

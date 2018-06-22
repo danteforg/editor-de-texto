@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+<?php
+session_start();
+if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
+	print "<script>alert(\"Acceso invalido!\");window.location='login.php';</script>";
+}
+
+?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -10,27 +16,29 @@
 	<div class="encabezado">
 		<h3 class= "user">USUARIO</h3>
     </div>
+    <form>
     <div>
-		<span class="salir" onClick="salida()">Salir</span>
+		<a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
 	</div>
+	</form>
 	<form>
-		<div class="nuevo" onclick="nueva()">
+		<div class="nuevo">
 			<p>Nuevo</p>
 			<p>documento</p>
 		</div>
 	</form>
 
 	<form>
-		<div class="reciente" >
-			<p></p>
-			<p>...</p>
+		<div class="reciente">
+			<p>Nuevo</p>
+			<p>documento</p>
 		</div>
 	</form>
 
 	<form>
 		<div class="otro">
-			<p></p>
-			<p>...</p>
+			<p>Nuevo</p>
+			<p>documento</p>
 		</div>
 	</form>
 

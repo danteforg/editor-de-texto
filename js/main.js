@@ -47,3 +47,7 @@ function salida(){
 function nueva(){
   document.location.href="editar.html";
 }
+
+function segund(){
+  document.location.href="preview.html";
+}
