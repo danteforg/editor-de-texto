@@ -37,7 +37,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 
 	<form>
 		<div class="otro">
-			<p>Nuevo</p>
+			<p>Subir</p>
 			<p>documento</p>
 		</div>
 	</form>

@@ -30,27 +30,11 @@ tinymce.init({
 
         });
 
-function RecuperarCon(){
-  if($('.usuario')=="nana"){
-     alert("Contraseña del suario: --..-..--");
-  }else{
-    alert("No funciono");
-  }
-}
-
 function salida(){
    alert("HAZ CERRADO SESION");
-   document.location.href ="index.html";
 }
 
 
-function nueva(){
-  document.location.href="editar.html";
+function edit(){
+  document.location.href= "editar.php";
 }
-<<<<<<< Updated upstream
-
-function segund(){
-  document.location.href="preview.html";
-}
-=======
->>>>>>> Stashed changes

@@ -215,30 +215,30 @@ a:link{
 
 .otro{
   position: absolute;
-  width: 25%;
-  height: 70%;
-  background: url(../imagenes/wor.png);
+  width: 200px;
+  height: 200px;
+  background: url(../imagenes/sub.png);
   -webkit- background-size: cover;
   background-size: cover;
-  top: 80px;
-  left: 850px;
+  top: 380px;
+  left: 950px;
 }
 
 .otro p{
   position: relative;
-  top: 55px;
-  left: 55px;
+  color: #FFFFFF;
+  top: -120px;
   font-size: 54px;
   font-family: Roboto;
 }
 
 .otro:hover{
-  background: url(../imagenes/wor2.png);
+  background: url(../imagenes/sub.png);
   -webkit- background-size: cover;
   background-size: cover;
   transition: all .5s ease;
   cursor: pointer;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .salir{
