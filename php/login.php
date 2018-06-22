@@ -9,7 +9,7 @@ if(!empty($_POST)){
 		  $con = conexion();
 
 			$user_id=null;
-			$sql1= "select * from user where (username=\"$_POST[usernameLogin]\" or email=\"$_POST[usernameLogin]\") and password=\"$_POST[passwordLogin]\" ";
+			$sql1= "select * from usuarios where (username=\"$_POST[usernameLogin]\" or email=\"$_POST[usernameLogin]\") and password=\"$_POST[passwordLogin]\" ";
 			$query = $con->query($sql1);
 			while ($r=$query->fetch_array()) {
 				$user_id=$r["id"];
