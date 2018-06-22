@@ -14,9 +14,9 @@
             <div class="global">
                 <h2>Inicio de sesion</h2>
                 <form action="php/login.php" method="post">
-                <input type="text" placeholder="Usuario" name="username" id="username">
+                <input type="text" placeholder="Usuario" name="usernameLogin" id="usernameLogin">
 
-                <input type="password" placeholder="Contraseña" name="password" id="password">
+                <input type="password" placeholder="Contraseña" name="passwordLogin" id="passwordLogin">
 
                 <input type="submit" value="Ingresar">
               </form>

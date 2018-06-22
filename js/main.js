@@ -25,16 +25,32 @@ tinymce.init({
             "save table contextmenu directionality emoticons template paste textcolor"
           ],
 
-          toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons"
+          toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | download preview media fullpage | forecolor backcolor emoticons"
 
 
         });
 
+function RecuperarCon(){
+  if($('.usuario')=="nana"){
+     alert("Contraseña del suario: --..-..--");
+  }else{
+    alert("No funciono");
+  }
+}
+
 function salida(){
    alert("HAZ CERRADO SESION");
+   document.location.href ="index.html";
 }
 
 
 function edit(){
   document.location.href= "editar.php";
 }
+<<<<<<< Updated upstream
+
+function segund(){
+  document.location.href="preview.html";
+}
+=======
+>>>>>>> Stashed changes

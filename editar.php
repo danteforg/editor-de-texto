@@ -4,9 +4,9 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
   print "<script>alert(\"Acceso invalido!\");window.location='login.php';</script>";
 }
 ?>
-<HTML>
-<HEAD>
-  <TITLE>Editor</TITLE>
+<html>
+<head>
+  <title>Editor</title>
       <script src="plugin/tinymce/tinymce.min.js"></script>
       <script type="text/javascript"  src="plugin/tinymce/tinymce.min.js"></script>
       <script type="text/javascript"  src="js/jquery.min.js"></script>
@@ -15,10 +15,10 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
       <script type="text/javascript" src="js/main.js"></script>
       <meta charset="utf-8">
       <link rel="stylesheet" href="css/Estilos.css">
-</HEAD>
-<BODY class="tercero">
-      
-      
+</head>
+<body class="tercero">
+
+
   <div class="encabezado">
     <h3 class= "user">USUARIO</h3>
     </div>
@@ -28,5 +28,5 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
       <textarea name="myTextarea" id="myTextarea" class="tinymce"></textarea>
 
 
-</BODY>
-</HTML>
+</body>
+</html>

@@ -16,5 +16,5 @@ if($filas>0){
 	echo "No se puede acceder";
 }
 
-mysql_free_result($resultado);
-mysql_close($conexion);
+mysqli_free_result($resultado);
+mysqli_close($conexion);
