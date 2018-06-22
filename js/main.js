@@ -39,7 +39,7 @@ function RecuperarCon(){
 }
 
 function salida(){
-   alert("HAZ CERRADO SESION");
+   alert("HAS CERRADO SESION");
    document.location.href ="index.html";
 }
 
@@ -47,10 +47,10 @@ function salida(){
 function edit(){
   document.location.href= "editar.php";
 }
-<<<<<<< Updated upstream
+// <<<<<<< Updated upstream
 
 function segund(){
   document.location.href="preview.html";
 }
-=======
->>>>>>> Stashed changes
+// =======
+// >>>>>>> Stashed changes
