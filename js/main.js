@@ -1,4 +1,5 @@
 $('.cambio').click(function(){
+  //sdocument.getElementById("letras").innerHTML = "Inicio de Sesión"
   $('.global').animate({
     height: "toggle",
     'padding-top': 'toggle',

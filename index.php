@@ -9,7 +9,7 @@
           <div class="conte">
             <div class="caja"></div>
             <div class="cambio">
-              <span> Crear cuenta</span>
+              <span id="letras"> Crear cuenta</span>
             </div>
             <div class="global">
                 <h2>Inicio de sesion</h2>
