@@ -6,6 +6,17 @@
       <link rel="stylesheet" href="css/Estilos.css">
   </HEAD>
       <BODY class="primero">
+        <!-- modal -->
+        <div id="ventana" class="ventana">
+          <h2 id="texto"></h2>
+          <p id="texto-p"></p>
+        </div>
+
+        <div id="ventana" class="ventana">
+          <h2 id="texto"></h2>
+          <p id="texto-p"></p>
+        </div>
+        <!-- modal fin -->
           <div class="conte">
             <div class="caja"></div>
             <div class="cambio">

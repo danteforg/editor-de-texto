@@ -1,3 +1,5 @@
+
+
 $('.cambio').click(function(){
   //sdocument.getElementById("letras").innerHTML = "Inicio de Sesión"
   $('.global').animate({
@@ -29,11 +31,12 @@ function edit(){
 
 
 function descargar(){
-	name="el nombre de tu documento";
-	frame=document.getElementById('myTextarea'); //es el frame que usé para el editor
-	doc =  frame.value; //saco como tal lo que está dentro del frame
+	name=document.getElementById('docName').value;
+	frame=document.getElementById('myTextarea_ifr');
+  console.log(frame);
+	doc =  frame.src;
 
-	location.assign("php/download.php?name="+name+"&doc="+doc); //lo mando por get para descargarlo
+	location.assign("php/descarga.php?name="+name+"&doc="+doc); //Get para descargarlo
 
 }
 // =======

@@ -26,7 +26,11 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
     <div>
     <a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
   </div>
+  <div class="nombreArchivo">
+    <input type="text" id="docName" placeholder="Nombre Documento">
+  </div>
       <textarea name="myTextarea" id="myTextarea" class="tinymce"></textarea>
+      <button onclick="guardar()">Guardar Documento</button>
       <button onclick="descargar()">Descargar</button>
 
 

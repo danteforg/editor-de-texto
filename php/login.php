@@ -1,15 +1,16 @@
 <?php
+$js = "<script type=\"text/javascript\" src=\"js/jquery-3.1.1.js\"></script><script type=\"text/javascript\" src=\"js/main.js\"></script>";
 $usuario=$_POST['usernameLogin'];
 $clave=$_POST['passwordLogin'];
 if($usuario!="" && $clave!=""){
 if(!empty($_POST)){
-	if(isset($_POST["usernameLogin"]) &&isset($_POST["passwordLogin"])){
+	if(isset($usuario) &&isset($clave)){
 		if($_POST["usernameLogin"]!=""&&$_POST["passwordLogin"]!=""){
 			require("conexion.php");
 		  $con = conexion();
 
 			$user_id=null;
-			$sql1= "select * from usuarios where (username=\"$_POST[usernameLogin]\") and password=\"$_POST[passwordLogin]\" ";
+			$sql1= "select * from usuarios where (username='{$usuario}') and password='{$clave}' ";
 			$query = $con->query($sql1);
 			while ($r=$query->fetch_array()) {
 				$user_id=$r["idUser"];
