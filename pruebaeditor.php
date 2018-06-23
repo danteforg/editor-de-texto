@@ -32,7 +32,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
   <input type="button" class="botones a4" name="Submit4" onclick="formato('RemoveFormat')" />
   <!-- <input type="button" class="a5" name="Submit5" onclick="insertarEnlace()" />
   <input type="button" class="a6" name="Submit9" onclick="formato('Unlink')" /> -->
-  <input type="button" class="botones a7" name="Submit6" onclick="insertarImagen()" />
+  <input type="button" title="Insertar Imagen" class="botones a7" name="Submit6" onclick="insertarImagen()" />
   <input type="button" class="botones a5" name="Submit5" onclick="color('#0000E6')" />
   <input type="button" class="botones a8" name="Submit7" onclick="color('#DF0000')" />
   <input type="button" class="botones a6" name="Submit9" onclick="colorFondo('#0000E6')" />
