@@ -76,7 +76,7 @@ function escribir(name) {
 	texto =  frame.contentWindow.document.body.innerHTML;
 	nombre = '../Docs/'+name+ '.txt';
 	ajaxEscribir = new XMLHttpRequest();
-	ajaxEscribir.open('POST', 'php/doc.php');
+	ajaxEscribir.open('POST', 'php/documento.php');
 
 	ajaxEscribir.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
 

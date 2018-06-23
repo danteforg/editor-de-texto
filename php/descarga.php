@@ -3,15 +3,15 @@
 	require("conexion.php");
 	$con = conexion();
 
-    $name = $_GET['name'];
-    $doc = $_GET['doc'];
+    $nombreDoc = $_GET['name'];
+    $content = $_GET['doc'];
 
-    // $name = "nanes";
-    // $doc = "gg";
+    // $nombreDoc = "nanes";
+    // $content = "gg";
 
 
    header("Content-type: application/vnd.ms-word");
-   header("Content-Disposition: attachment; Filename=$name.doc");
+   header("Content-Disposition: attachment; Filename=$nombreDoc.doc");
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +24,7 @@
    <body>
 
       <?php
-        echo $doc;
+        echo $content;
        ?>
 
    </body>

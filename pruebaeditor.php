@@ -17,10 +17,10 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 
 <form id="form1" class="form1" name="form1" method="post" action="">
   <div class="iconos">
-  <input type="button" class="botones a1" name="Submit1"  onclick="formato('bold')" />
-  <input type="button" class="botones a2" name="Submit2" onclick="formato('italic')" />
-  <input type="button" class="botones a3" name="Submit3"  onclick="formato('underline')" />
-  <select class="botones" id="font" onchange="fontSize()">
+  <input type="button" title="Negritas" class="botones a1" name="Submit1"  onclick="formato('bold')" />
+  <input type="button" title="Cursiva" class="botones a2" name="Submit2" onclick="formato('italic')" />
+  <input type="button" title="Subrayado" class="botones a3" name="Submit3"  onclick="formato('underline')" />
+  <select title="Cambiar tamaño de letra" class="botones" id="font" onchange="fontSize()">
 					<option value="1">1</option>
 					<option value="2">2</option>
 					<option value="3">3</option>
@@ -29,20 +29,17 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 					<option value="6">6</option>
 					<option value="7">7</option>
 				</select>
-  <input type="button" class="botones a4" name="Submit4" onclick="formato('RemoveFormat')" />
-  <!-- <input type="button" class="a5" name="Submit5" onclick="insertarEnlace()" />
-  <input type="button" class="a6" name="Submit9" onclick="formato('Unlink')" /> -->
+  <input type="button" title="Quitar Formato" class="botones a4" name="Submit4" onclick="formato('RemoveFormat')" />
   <input type="button" title="Insertar Imagen" class="botones a7" name="Submit6" onclick="insertarImagen()" />
-  <input type="button" class="botones a5" name="Submit5" onclick="color('#0000E6')" />
-  <input type="button" class="botones a8" name="Submit7" onclick="color('#DF0000')" />
-  <input type="button" class="botones a6" name="Submit9" onclick="colorFondo('#0000E6')" />
-  <input type="button" class="botones a9" name="Submit8" onclick="colorFondo('#DF0000')" />
-  <input type="button" class="botones a10" name="Submit10" onclick="formato('undo')" />
-  <input type="button" class="botones a11" name="Submit11" onclick="formato('redo')" />
-  <!-- <input type="button" class="botones a12" name="Submit12" onclick="inHTML()" /> -->
-  <input type="button" class="botones a12" name="Submit12" onclick="descargar()" />
-  <input type="button" class="botones a13" name="Submit13" onclick="guardar()" />
-  <input type="button" class="botones a14" name="Submit13" onclick="eliminar()" />
+  <input type="button" title="Cambiar color de letra (Azul)" class="botones a5" name="Submit5" onclick="color('#0000E6')" />
+  <input type="button" title="Cambiar color de letra (rojo)" class="botones a8" name="Submit7" onclick="color('#DF0000')" />
+  <input type="button" title="Cambiar color de fondo (azul)" class="botones a6" name="Submit9" onclick="colorFondo('#0000E6')" />
+  <input type="button" title="Cambiar color de fondo (rojo)" class="botones a9" name="Submit8" onclick="colorFondo('#DF0000')" />
+  <input type="button" title="Deshacer acción" class="botones a10" name="Submit10" onclick="formato('undo')" />
+  <input type="button" title="Rehacer acción" class="botones a11" name="Submit11" onclick="formato('redo')" />
+  <input type="button" title="Descargar Archivo" class="botones a12" name="Submit12" onclick="descargar()" />
+  <input type="button" title="Guardar Archivo" class="botones a13" name="Submit13" onclick="guardar()" />
+  <input type="button" title="Eliminar archivo" class="botones a14" name="Submit13" onclick="eliminar()" />
   </div>
 
 
