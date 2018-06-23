@@ -25,7 +25,7 @@ function salida(){
 
 
 function edit(){
-  document.location.href= "editar.php";
+  document.location.href="pruebaeditor.php";
 }
 // <<<<<<< Updated upstream
 
@@ -43,5 +43,4 @@ function descargar(){
 // >>>>>>> Stashed changes
 
 function otro(){
-  document.location.href="pruebaeditor.php";
 }
