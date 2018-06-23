@@ -19,7 +19,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 		<a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
 	</div>
 	</form>
-	<form onclick="edit()">
+	<form onclick="edit()" >
 		<div class="nuevo">
 			<p>NUEVO</p>
 			<p>DOCUMENTO</p>
@@ -28,8 +28,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 
 	<form onclick="otro()">
 		<div class="reciente">
-			<p>RECUPERAR</p>
-			<p>DOCUMENTO</p>
+			<p>RECUPERAR</p><p>DOCUMENTO</p>
 		</div>
 	</form>
 
@@ -37,6 +36,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 		<div class="otro">
 			<p>MIS</p>
 			<p>ARCHIVOS</p>
+			<button type="button" onclick="MO()"></button>
 		</div>
 	</form>
 
@@ -44,6 +44,30 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 		<div class="batman">
 			<p>ARCHIVOS</p>
 			<p>COMPARTIDOS</p>
+			<button type="button" onclick="MO2()"></button>
+		</div>
+	</form>
+
+	<form class="select" id="select">
+		<div class="nav">
+			<ul>
+				<li><a href="">Documento 1</a></li>
+				<li><a href="">Documento 2</a></li>
+				<li><a href="">Documento 3</a></li>
+				<li><a href="">Documento 4</a></li>
+			</ul>
+		</div>
+	</form>
+
+
+	<form class="select" id="select2">
+		<div class="nav">
+			<ul>
+				<li><a href="">Documento 5</a></li>
+				<li><a href="">Documento 6</a></li>
+				<li><a href="">Documento 7</a></li>
+				<li><a href="">Documento 8</a></li>
+			</ul>
 		</div>
 	</form>
 
