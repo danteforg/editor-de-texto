@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+﻿<?php session_start(); ?>
 <HTML lang="es">
   <HEAD>
       <TITTLE></TITTLE>
@@ -47,9 +47,6 @@
 
                 <input type="submit" value="Registrar">
               <form action="#">
-            </div>
-            <div class="olvidar">
-              <a href="#" onclick="RecuperarCon()">Recordar mi contraseña</a>
             </div>
           </div>
           <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
