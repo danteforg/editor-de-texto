@@ -1,4 +1,4 @@
-﻿<?php session_start(); ?>
+<?php session_start(); ?>
 <HTML lang="es">
   <HEAD>
       <TITTLE></TITTLE>

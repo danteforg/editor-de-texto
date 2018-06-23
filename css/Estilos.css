@@ -189,7 +189,7 @@ a:link{
   position: absolute;
   width: 200px;
   height: 200px;
-  background: url(../imagenes/rec.png);
+  background: url(../imagenes/sub.png);
   -webkit- background-size: cover;
   background-size: cover;
   top: 380px;
@@ -205,7 +205,7 @@ a:link{
 }
 
 .reciente:hover{
-  background: url(../imagenes/rec.png);
+  background: url(../imagenes/sub.png);
   -webkit- background-size: cover;
   background-size: cover;
   transition: all .5s ease;
@@ -217,7 +217,7 @@ a:link{
   position: absolute;
   width: 200px;
   height: 200px;
-  background: url(../imagenes/sub.png);
+  background: url(../imagenes/rec.png);
   -webkit- background-size: cover;
   background-size: cover;
   top: 380px;
@@ -233,7 +233,7 @@ a:link{
 }
 
 .otro:hover{
-  background: url(../imagenes/sub.png);
+  background: url(../imagenes/rec.png);
   -webkit- background-size: cover;
   background-size: cover;
   transition: all .5s ease;
