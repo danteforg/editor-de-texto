@@ -21,23 +21,29 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 	</form>
 	<form onclick="edit()">
 		<div class="nuevo">
-			<p>Nuevo</p>
-			<p>documento</p>
+			<p>NUEVO</p>
+			<p>DOCUMENTO</p>
 		</div>
 	</form>
 
 	<form onclick="otro()">
 		<div class="reciente">
-			<p>Ultimo</p>
-			<p>documento</p>
-			<p>subido</p>
+			<p>RECUPERAR</p>
+			<p>DOCUMENTO</p>
 		</div>
 	</form>
 
 	<form>
 		<div class="otro">
-			<p>Recuperar</p>
-			<p>archivo</p>
+			<p>MIS</p>
+			<p>ARCHIVOS</p>
+		</div>
+	</form>
+
+	<form>
+		<div class="batman">
+			<p>ARCHIVOS</p>
+			<p>COMPARTIDOS</p>
 		</div>
 	</form>
 
