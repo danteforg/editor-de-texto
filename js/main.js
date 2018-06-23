@@ -27,9 +27,6 @@ function edit(){
 }
 // <<<<<<< Updated upstream
 
-function segund(){
-  document.location.href="preview.html";
-}
 
 function descargar(){
 	name="el nombre de tu documento";
@@ -41,3 +38,7 @@ function descargar(){
 }
 // =======
 // >>>>>>> Stashed changes
+
+function otro(){
+  document.location.href="pruebaeditor.php";
+}

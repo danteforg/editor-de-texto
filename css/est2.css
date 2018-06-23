@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit- box-sizing: border-box;
+  -moz- box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(../imagenes/fondo4.jpg);
+  -webkit- background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Roboto;
+}
+
+
+
+
+.form1 .a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12, .a13{
+	width: 50px;
+	height: 35px;
+	position: absolute; 
+  left: 100px;
+  background: white;
+
+} 
+
+.a1{
+	background-image: url(../imagenes/bold.png);
+	background-size:  100% 100%; 	
+}
+
+.a2{
+	background-image: url(../imagenes/italic.png);
+	background-size:  100% 100%; 
+}
+
+.a3{
+	background-image: url(../imagenes/underline.png);
+	background-size:  100% 100%; 
+}
+
+.a4{
+	background-image: url(../imagenes/normal.png);
+	background-size:  100% 100%; 
+}
+
+.a5{
+	background-image: url(../imagenes/link.png);
+	background-size:  100% 100%; 	
+}
+
+.a6{
+	background-image: url(../imagenes/mlink.png);
+	background-size:  100% 100%; 
+}
+
+.a7{
+	background-image: url(../imagenes/foto.png);
+	background-size:  100% 100%; 
+}
+
+.a8{
+	background-image: url(../imagenes/gota.png);
+	background-size:  100% 100%; 
+}
+.a9{
+	background-image: url(../imagenes/cub.png);
+	background-size:  100% 100%; 	
+}
+
+.a10{
+	background-image: url(../imagenes/des.png);
+	background-size:  100% 100%; 
+}
+
+.a11{
+	background-image: url(../imagenes/res.png);
+	background-size:  100% 100%; 
+}
+
+.a12{
+	background-image: url(../imagenes/insert.png);
+	background-size:  100% 100%; 
+}
+
+.a13{
+	background-image: url(../imagenes/save.png);
+	background-size:  100% 100%; 
+}
+
+.ht input{
+	position: relative;
+	margin-top:3px;
+	width: 80px;
+	height: 40px;
+	left: 100px;
+}
+
+.edit{
+  position: absolute;
+	width: 100%;
+  top: 100px;
+	height: 550px;
+	border:1px solid #000;
+	background: none;
+}
+
+.encabezado{
+  width: 100%;
+  height: 15px;
+  bottom: 20px;
+  background: #E6E4E6;
+  opacity: 0.5;
+}
+
+
+.salir{
+  float: right;
+  position: relative;
+  height: 30px;
+  width: 90px;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  transition: all .4s ease;
+  cursor: pointer;
+  background: none; 
+}
+
+.salir{
+  letter-spacing: 1px;
+}
+
+.salir:hover{
+  border-left: 4px solid blue;
+  border-right:4px solid blue;
+}

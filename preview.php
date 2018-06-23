@@ -13,7 +13,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
           <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	<div class="encabezado">USUARIO</div>
+	<div class="encabezado"></div>
     <form>
     <div>
 		<a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
@@ -26,7 +26,7 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 		</div>
 	</form>
 
-	<form>
+	<form onclick="otro()">
 		<div class="reciente">
 			<p>Ultimo</p>
 			<p>documento</p>
