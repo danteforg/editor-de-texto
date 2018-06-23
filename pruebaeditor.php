@@ -20,6 +20,15 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
   <input type="button" class="botones a1" name="Submit1"  onclick="formato('bold')" />
   <input type="button" class="botones a2" name="Submit2" onclick="formato('italic')" />
   <input type="button" class="botones a3" name="Submit3"  onclick="formato('underline')" />
+  <select class="botones" id="font" onchange="fontSize()">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4" selected="">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+				</select>
   <input type="button" class="botones a4" name="Submit4" onclick="formato('RemoveFormat')" />
   <!-- <input type="button" class="a5" name="Submit5" onclick="insertarEnlace()" />
   <input type="button" class="a6" name="Submit9" onclick="formato('Unlink')" /> -->
@@ -30,8 +39,10 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
   <input type="button" class="botones a9" name="Submit8" onclick="colorFondo('#DF0000')" />
   <input type="button" class="botones a10" name="Submit10" onclick="formato('undo')" />
   <input type="button" class="botones a11" name="Submit11" onclick="formato('redo')" />
-  <input type="button" class="botones a12" name="Submit12" onclick="inHTML()" />
+  <!-- <input type="button" class="botones a12" name="Submit12" onclick="inHTML()" /> -->
+  <input type="button" class="botones a12" name="Submit12" onclick="descargar()" />
   <input type="button" class="botones a13" name="Submit13" onclick="guardar()" />
+  <input type="button" class="botones a14" name="Submit13" onclick="eliminar()" />
   </div>
 
 
@@ -50,7 +61,9 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
       <h3 class= "user"></h3>
     </div>
     <div class="encabezado">
+      <p id="docName"></p>
       <a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
+      <a onclick="inicio()" href="preview.php" class="salir" >Inicio</a>
     </div>
 </body>
 </html>

@@ -23,6 +23,10 @@ function salida(){
    document.location.href ="index.html";
 }
 
+function inicio(){
+  document.location.href ="preview.html";
+}
+
 
 function edit(){
   document.location.href="pruebaeditor.php";
@@ -30,15 +34,7 @@ function edit(){
 // <<<<<<< Updated upstream
 
 
-function descargar(){
-	name=document.getElementById('docName').value;
-	frame=document.getElementById('myTextarea_ifr');
-  console.log(frame);
-	doc =  frame.src;
 
-	location.assign("php/descarga.php?name="+name+"&doc="+doc); //Get para descargarlo
-
-}
 // =======
 // >>>>>>> Stashed changes
 
