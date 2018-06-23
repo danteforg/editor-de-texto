@@ -36,15 +36,10 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 </form>
 
 <form>
-  <iframe class="edit" id="edit" style="  position: absolute; width: 100%; top: 100px; height: 550px; border:1px solid #000; background: white; max-width: 1490px; left:20px;"></iframe>
+  <iframe class="edit" id="edit" style="  position: fixed; width: 100%; top: 100px; height: 550px; border:1px solid #000; background: white; max-width: 1490px; left:20px;"></iframe>
 </form>
 <form>
   <div id="ht" style="position: absolute; width: 100%; top: 100px; height: 550px; border:1px solid #000; background: #E0ECF8; display:none;max-width: 1490px; left:20px"></div>
-</form>
-<form>
-  <div class="ht">
-    <input name="ver" type="button" id="ver" onclick="htmlOEditor(event)" value="html" />
-  </div>
 </form>
 
   <form>

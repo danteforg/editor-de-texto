@@ -41,15 +41,15 @@ function inHTML(){
             }
         }
 }
-function htmlOEditor(e){
-e=e || window.event;
-ob=e.target || e.srcElement
-$('edit').style.display=(ob.value=='html')?'none':'block';
-$('ht').style.display=(ob.value!='html')?'none':'block';
-$('ht').innerHTML=rev(editor.body.innerHTML);
-ob.value=(ob.value=='html')?'editor':'html';
-}
-window.onload=function(){
-    editor=$('edit').contentDocument || $('edit').contentWindow.document;
-    editor.designMode='on';
-}
+// function htmlOEditor(e){
+// e=e || window.event;
+// ob=e.target || e.srcElement
+// $('edit').style.display=(ob.value=='html')?'none':'block';
+// $('ht').style.display=(ob.value!='html')?'none':'block';
+// $('ht').innerHTML=rev(editor.body.innerHTML);
+// ob.value=(ob.value=='html')?'editor':'html';
+// }
+// window.onload=function(){
+//     editor=$('edit').contentDocument || $('edit').contentWindow.document;
+//     editor.designMode='on';
+// }

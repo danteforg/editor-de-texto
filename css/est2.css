@@ -19,75 +19,75 @@ body{
 	width: 50px;
 	height: 35px;
   top: 50px;
-	position: relative; 
+	position: relative;
   left: 400px;
   background: white;
   cursor: pointer;
 
-} 
+}
 
 .a1{
 	background-image: url(../imagenes/bold.png);
-	background-size:  100% 100%; 	
+	background-size:  100% 100%;
 }
 
 .a2{
 	background-image: url(../imagenes/italic.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a3{
 	background-image: url(../imagenes/underline.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a4{
 	background-image: url(../imagenes/normal.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a5{
 	background-image: url(../imagenes/link.png);
-	background-size:  100% 100%; 	
+	background-size:  100% 100%;
 }
 
 .a6{
 	background-image: url(../imagenes/mlink.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a7{
 	background-image: url(../imagenes/foto.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a8{
 	background-image: url(../imagenes/gota.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 .a9{
 	background-image: url(../imagenes/cub.png);
-	background-size:  100% 100%; 	
+	background-size:  100% 100%;
 }
 
 .a10{
 	background-image: url(../imagenes/des.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a11{
 	background-image: url(../imagenes/res.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a12{
 	background-image: url(../imagenes/insert.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .a13{
 	background-image: url(../imagenes/save.png);
-	background-size:  100% 100%; 
+	background-size:  100% 100%;
 }
 
 .ht input{
@@ -126,7 +126,7 @@ body{
   border-left: 2px solid red;
   transition: all .4s ease;
   cursor: pointer;
-  background: none; 
+  background: none;
 }
 
 .salir{
@@ -136,4 +136,20 @@ body{
 .salir:hover{
   border-left: 4px solid blue;
   border-right:4px solid blue;
+}
+
+
+
+#myTextarea{
+  position: absolute;
+  width: 90%;
+  top: 100px;
+  height: 550px;
+  border:1px
+  solid #000;
+  background:
+  white;
+  /*max-width: 1490px;*/
+  left:10%;
+  right: 10%;
 }
