@@ -49,7 +49,7 @@ function inHTML(){
 // $('ht').innerHTML=rev(editor.body.innerHTML);
 // ob.value=(ob.value=='html')?'editor':'html';
 // }
-// window.onload=function(){
-//     editor=$('edit').contentDocument || $('edit').contentWindow.document;
-//     editor.designMode='on';
-// }
+function load(){
+  editor=$('editar').contentDocument || $('editar').contentWindow.document;
+  editor.designMode='on';
+}

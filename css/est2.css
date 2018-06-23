@@ -9,20 +9,35 @@
 body{
   background: url(../imagenes/fondo4.jpg);
   -webkit- background-size: cover;
-  background-size: cover;
+  background-size: auto;
   background-attachment: fixed;
   font-family: Roboto;
 }
 
 
-.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12, .a13{
-	width: 50px;
-	height: 35px;
-  top: 50px;
+.iconos{
+  width: 84%;
+  left: 7%;
+  right: 7%;
+  height: 80px;
+  position: fixed;
+  top: 70px;
+  background: #649DDD;
+  opacity: 0.8;
+}
+
+.botones{
+	width: 40px;
+	height: 40px;
+  top: 25px;
 	position: relative;
-  left: 400px;
-  background: white;
+  padding-left: 6px;
+  padding-right: 6px;
+  left: 10%;
+  background: none;
   cursor: pointer;
+  border: none;
+  border-radius: 6px;
 
 }
 
@@ -32,7 +47,7 @@ body{
 }
 
 .a2{
-	background-image: url(../imagenes/italic.png);
+	background-image: url(../imagenes/italic-text.png);
 	background-size:  100% 100%;
 }
 
@@ -47,26 +62,26 @@ body{
 }
 
 .a5{
-	background-image: url(../imagenes/link.png);
+	background-image: url(../imagenes/gotaAzul.png);
 	background-size:  100% 100%;
 }
 
 .a6{
-	background-image: url(../imagenes/mlink.png);
+	background-image: url(../imagenes/bucketBlue.png);
 	background-size:  100% 100%;
 }
 
 .a7{
-	background-image: url(../imagenes/foto.png);
+	background-image: url(../imagenes/image.png);
 	background-size:  100% 100%;
 }
 
 .a8{
-	background-image: url(../imagenes/gota.png);
+	background-image: url(../imagenes/gotaRoja.png);
 	background-size:  100% 100%;
 }
 .a9{
-	background-image: url(../imagenes/cub.png);
+	background-image: url(../imagenes/bucketRed.png);
 	background-size:  100% 100%;
 }
 
@@ -105,18 +120,19 @@ body{
 .encabezado{
   position: absolute;
   width: 100%;
-  height: 30px;
-  bottom: 20px;
+  height: 50px;
+  /* bottom: 20px; */
   background: #E6E4E6;
   opacity: 0.5;
-  bottom: 730px;
+  /* bottom: 730px; */
 }
 
 
 .salir{
   float: right;
   position: relative;
-  bottom: 80px;
+  bottom: -10px;
+  right: 15px;
   height: 30px;
   width: 90px;
   font-size: 25px;
@@ -138,18 +154,14 @@ body{
   border-right:4px solid blue;
 }
 
-
-
-#myTextarea{
+#editar{
   position: absolute;
-  width: 90%;
-  top: 100px;
+  width: 84%;
+  top: 150px;
   height: 550px;
-  border:1px
-  solid #000;
-  background:
-  white;
-  /*max-width: 1490px;*/
-  left:10%;
-  right: 10%;
+  border: 1px solid #000;
+  background: #F0F0F0;
+  /* max-width: 1490px; */
+  left: 7%;
+  right: 7%;
 }
