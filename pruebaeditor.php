@@ -12,19 +12,12 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 
 </head>
 <body>
-  <form>
-    <div class="encabezado">
-      <h3 class= "user"></h3>
-    </div>
-    <div>
-      <a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
-    </div>
-  </form>
 
-<form id="form1" class="encabezado" name="form1" method="post" action="">
+
+<form id="form1" class="form1" name="form1" method="post" action="">
   <div>
-  <input type="button" class="a1" name="Submit"  onclick="formato('bold')" />
-  <input type="button" class="a2" name="Submit2"  onclick="formato('italic')" />
+  <input type="button" class="a1" name="Submit1"  onclick="formato('bold')" />
+  <input type="button" class="a2" name="Submit2" onclick="formato('italic')" />
   <input type="button" class="a3" name="Submit3"  onclick="formato('underline')" />
   <input type="button" class="a4" name="Submit4" onclick="formato('RemoveFormat')" />
   <input type="button" class="a5" name="Submit5" onclick="insertarEnlace()" />
@@ -43,15 +36,24 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 </form>
 
 <form>
-  <iframe class="edit" id="edit"></iframe>
+  <iframe class="edit" id="edit" style="  position: absolute; width: 100%; top: 100px; height: 550px; border:1px solid #000; background: white; max-width: 1490px; left:20px;"></iframe>
 </form>
 <form>
-  <div id="ht" style="width:100%; height:500px; overflow:auto; border:1px solid #000; display:none"></div>
+  <div id="ht" style="position: absolute; width: 100%; top: 100px; height: 550px; border:1px solid #000; background: #E0ECF8; display:none;max-width: 1490px; left:20px"></div>
 </form>
 <form>
   <div class="ht">
     <input name="ver" type="button" id="ver" onclick="htmlOEditor(event)" value="html" />
   </div>
 </form>
+
+  <form>
+    <div class="encabezado">
+      <h3 class= "user"></h3>
+    </div>
+    <div>
+      <a onclick="salida()" href="php/logout.php" class="salir" >Salir</a>
+    </div>
+  </form>
 </body>
 </html>
