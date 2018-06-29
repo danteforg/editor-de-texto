@@ -1,6 +1,4 @@
-﻿
-
-$('.cambio').click(function(){
+﻿$('.cambio').click(function(){
   //sdocument.getElementById("letras").innerHTML = "Inicio de Sesión"
   $('.global').animate({
     height: "toggle",
@@ -10,13 +8,6 @@ $('.cambio').click(function(){
   }, "slow");
 });
 
-function RecuperarCon(){
-  if($('.usuario')=="nana"){
-     alert("Contraseña del suario: --..-..--");
-  }else{
-    alert("No funciono");
-  }
-}
 
 function salida(){
    alert("HAS CERRADO SESION");

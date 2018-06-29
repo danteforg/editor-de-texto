@@ -16,17 +16,17 @@ if(!empty($_POST)){
 				break;
 			}
 			if($user_id==null){
-				print "<script>alert(\"Acceso invalido.\");window.location='../index.php';</script>";
+				print "<script>alert(\"Acceso invalido.\");window.history.back();</script>";
 			}else{
 				session_start();
 				$_SESSION["user_id"]=$user_id;
 				print "<script>window.location='../preview.php';</script>";
 			}
 		}
+	}else{
+		print "<script>alert(\"Acceso invalid\");window.history.back();</script>";
 	}
 }
-}else{
-	print "<script>alert(\"Campos vacios\");window.location='../index.php'</script>";
 }
 
 ?>
